@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+:root{
+    --bgBody: rgb(69, 65, 65);
+    --button: rgb(89, 201, 89);
+    --buttonHover: rgb(148, 226, 148);
+}
+
+body{
+    background-color: var(--bgBody);
+    width: 100vw;
+}
+
+main{
+    margin: 12rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img{
+    height: 35vh;
+    width: 25vw;
+}
+
+main button{
+    background-color: var(--button);
+    height: 4vh;
+    width: 15vw;
+    margin: 2rem 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: monospace;
+    color:rgb(73, 66, 66);
+    cursor: pointer;
+}
+
+main button:hover{
+    background-color: var(--buttonHover);
+    color:rgb(72, 63, 63);
+    transition: 0.55s;
+}
